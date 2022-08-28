@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sample" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".java_codes.Arithmatics"
+            android:label="Arithmatic Operations"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lists"
+            android:exported="false" />
+        <activity
+            android:name=".code"
+            android:exported="false"
+            android:label="Code"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".java_codes.Intents"
+            android:label="Intent"
+            android:exported="false" />
+        <activity
+            android:name=".java_codes.RadioButtons"
+            android:label="RadioButtons"
+            android:exported="false" />
+        <activity
+            android:name=".java_codes.AllLayouts"
+            android:exported="false"
+            android:label=" All Layouts" />
+        <activity
+            android:name=".java_codes.DatePicker_TimePicker"
+
+            android:label="Date Picker" />
+        <activity
+            android:name=".java_codes.Spinner"
+            android:label="Spinner"
+            android:exported="false" />
+        <activity android:name=".java_codes.Fragments" >
+        </activity>
+        <activity android:name=".java_codes.Checkbox"
+            android:label="CheckBox">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
