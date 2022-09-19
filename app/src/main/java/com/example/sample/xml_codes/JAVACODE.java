@@ -1,7 +1,94 @@
 package com.example.sample.xml_codes;
 
 public class JAVACODE {
-
+    public static String AgeJCode="package com.example.sample.java_codes;\n" +
+            "import com.example.sample.R;\n" +
+            "import androidx.appcompat.app.AppCompatActivity;\n" +
+            "\n" +
+            "import android.app.DatePickerDialog;\n" +
+            "import android.os.Bundle;\n" +
+            "import android.view.View;\n" +
+            "import android.widget.Button;\n" +
+            "import android.widget.DatePicker;\n" +
+            "import android.widget.TextView;\n" +
+            "\n" +
+            "import org.joda.time.Period;\n" +
+            "import org.joda.time.PeriodType;\n" +
+            "\n" +
+            "import java.text.ParseException;\n" +
+            "import java.text.ParsePosition;\n" +
+            "import java.text.SimpleDateFormat;\n" +
+            "import java.util.Calendar;\n" +
+            "import java.util.Date;\n" +
+            "\n" +
+            "public class Age_Calculator extends AppCompatActivity {\n" +
+            "    Button b1,b2,b3;\n" +
+            "    TextView t1,t2;\n" +
+            "    @Override\n" +
+            "    protected void onCreate(Bundle savedInstanceState) {\n" +
+            "        super.onCreate(savedInstanceState);\n" +
+            "        setContentView(R.layout.activity_age_calculator);\n" +
+            "        b1= findViewById(R.id.bd);\n" +
+            "        b2= findViewById(R.id.td);\n" +
+            "        b3= findViewById(R.id.age);\n" +
+            "        t1= findViewById(R.id.bdate);\n" +
+            "        t2= findViewById(R.id.ans);\n" +
+            "        SimpleDateFormat sdf= new SimpleDateFormat(\"dd/MM/yyyy\");\n" +
+            "\n" +
+            "        int year= Calendar.getInstance().get(Calendar.YEAR);\n" +
+            "        int month= Calendar.getInstance().get(Calendar.MONTH);\n" +
+            "        int date= Calendar.getInstance().get(Calendar.DAY_OF_MONTH);\n" +
+            "\n" +
+            "        String today=sdf.format(Calendar.getInstance().getTime());\n" +
+            "        b2.setText(today);\n" +
+            "        b1.setOnClickListener(new View.OnClickListener() {\n" +
+            "            @Override\n" +
+            "            public void onClick(View view) {\n" +
+            "                DatePickerDialog dp= new DatePickerDialog(Age_Calculator.this, new DatePickerDialog.OnDateSetListener() {\n" +
+            "                    @Override\n" +
+            "                    public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {\n" +
+            "int m=i1+1;"+
+            "                         String datee = i2+\"/\"+m+\"/\"+i;\n" +
+            "                        t1.setText(datee);\n" +
+            "\n" +
+            "                    }\n" +
+            "                }, year,month,date);\n" +
+            "                dp.show();\n" +
+            "            }\n" +
+            "        });\n" +
+            "\n" +
+            "b3.setOnClickListener(new View.OnClickListener() {\n" +
+            "    @Override\n" +
+            "    public void onClick(View view) {\n" +
+            "        try {\n" +
+            "            Date d1= sdf.parse(today);\n" +
+            "            Date d2= sdf.parse(t1.getText().toString());\n" +
+            "            long d11= d1.getTime();\n" +
+            "            long d22= d2.getTime();\n" +
+            "            if(d11>=d22) {\n" +
+            "                System.out.println(\"i was here\");\n" +
+            "                org.joda.time.Period p = new Period(d11, d22, PeriodType.yearMonthDay());\n" +
+            "                int year=p.getYears();\n" +
+            "                int month=p.getMonths();\n" +
+            "                int day=p.getDays();\n" +
+            "                t2.setText( year +\" Years\" + month + \" months\"+day+\"days\");\n" +
+            "\n" +
+            "            }else\n" +
+            "            {\n" +
+            "                t2.setText( \"invalid\");\n" +
+            "                System.out.println(\" iwas in else\");\n" +
+            "            }\n" +
+            "        }\n" +
+            "        catch (Exception e) {\n" +
+            "            e.printStackTrace();\n" +
+            "\n" +
+            "        }\n" +
+            "\n" +
+            "    }\n" +
+            "});\n" +
+            "    }\n" +
+            "}";
+    public static String AgeXCode="";
     public static String ArithJCode="package com.example.sample;\n" +
             "\n" +
             "\n" +

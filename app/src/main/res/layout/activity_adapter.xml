@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".java_codes.Checkbox">
+    android:layout_height="match_parent">
 
 
     <ImageView
@@ -76,5 +75,24 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783"/>
+        app:layout_constraintVertical_bias="0.783">
+
+        <Spinner
+            android:id="@+id/spin"
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="30dp"
+            android:background="#2196F3"
+            android:elevation="10dp" />
+        <Spinner
+            android:id="@+id/spin2"
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="70dp"
+
+            android:background="#2196F3"
+            android:elevation="10dp" />
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

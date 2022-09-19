@@ -1,9 +1,13 @@
 package com.example.sample;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.sample.java_codes.Adapter;
+import com.example.sample.java_codes.Age_Calculator;
 import com.example.sample.java_codes.AllLayouts;
 import com.example.sample.java_codes.Arithmatics;
 import com.example.sample.java_codes.DatePicker_TimePicker;
@@ -25,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onListItemClick(View v) {
         Intent intent;
-        String id = String.valueOf( v.getTag());
+        String id = String.valueOf(v.getTag());
         System.out.println(id);
         switch (id) {
             case "6":
@@ -41,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
                 break;
             case "3":
-                intent = new Intent(MainActivity.this, Spinner.class);
+                intent = new Intent(MainActivity.this, Adapter.class);
 
                 break;
             case "4":
@@ -56,8 +60,16 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, DatePicker_TimePicker.class);
 
                 break;
+            case "8":
+                intent = new Intent(MainActivity.this, Age_Calculator.class);
+
+                break;
+                case "9":
+                intent = new Intent(MainActivity.this, Fragments.class);
+
+                break;
             default:
-                intent= new Intent(MainActivity.this,MainActivity.class);
+                intent = new Intent(MainActivity.this, MainActivity.class);
 
                 break;
         }
