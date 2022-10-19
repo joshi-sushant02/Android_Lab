@@ -5,17 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.sample.java_codes.Adapter;
 import com.example.sample.java_codes.Age_Calculator;
 import com.example.sample.java_codes.AllLayouts;
-import com.example.sample.java_codes.Arithmatics;
+import com.example.sample.java_codes.Arithmetics;
 import com.example.sample.java_codes.DatePicker_TimePicker;
 import com.example.sample.java_codes.Fragments;
-import com.example.sample.java_codes.Checkbox;
-import com.example.sample.java_codes.Intents;
-import com.example.sample.java_codes.RadioButtons;
-import com.example.sample.java_codes.Spinner;
+import com.example.sample.java_codes.Permissions;
+import com.example.sample.java_codes.Login;
+import com.example.sample.java_codes.SQLite;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,24 +24,33 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.androids_list);
         getSupportActionBar().hide();
+        Button back = findViewById(R.id.android_back);
+        back.setOnClickListener(backbuttonListener);
 
     }
+
+
+    View.OnClickListener backbuttonListener= new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent backToHomePage= new Intent(MainActivity.this,home.class);
+            startActivity(backToHomePage);
+        }
+    };
+
 
     public void onListItemClick(View v) {
         Intent intent;
         String id = String.valueOf(v.getTag());
         System.out.println(id);
         switch (id) {
-            case "6":
-                intent = new Intent(MainActivity.this, Intents.class);
 
-                break;
             case "1":
                 intent = new Intent(MainActivity.this, AllLayouts.class);
 
                 break;
             case "2":
-                intent = new Intent(MainActivity.this, Arithmatics.class);
+                intent = new Intent(MainActivity.this, Arithmetics.class);
 
                 break;
             case "3":
@@ -49,25 +58,33 @@ public class MainActivity extends AppCompatActivity {
 
                 break;
             case "4":
-                intent = new Intent(MainActivity.this, Checkbox.class);
+                intent = new Intent(MainActivity.this, Permissions.class);
 
                 break;
             case "5":
-                intent = new Intent(MainActivity.this, RadioButtons.class);
+                intent = new Intent(MainActivity.this, DatePicker_TimePicker.class);
 
                 break;
-            case "7":
-                intent = new Intent(MainActivity.this, DatePicker_TimePicker.class);
+            case "6":
+                intent = new Intent(MainActivity.this, Age_Calculator.class);
 
                 break;
             case "8":
                 intent = new Intent(MainActivity.this, Age_Calculator.class);
 
                 break;
-                case "9":
-                intent = new Intent(MainActivity.this, Fragments.class);
+            case "9":
+                intent = new Intent(MainActivity.this, Login.class);
 
                 break;
+            case "10":
+                intent = new Intent(MainActivity.this, SQLite.class);
+                break;
+            case "11":
+                intent = new Intent(MainActivity.this, Fragments.class);
+                break;
+
+
             default:
                 intent = new Intent(MainActivity.this, MainActivity.class);
 

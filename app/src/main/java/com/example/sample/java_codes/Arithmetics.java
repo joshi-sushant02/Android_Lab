@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Arithmatics extends AppCompatActivity {
+public class Arithmetics extends AppCompatActivity {
     String jcode= JAVACODE.ArithJCode;
     String xcode=JAVACODE.ArithXCode;
     int num1;
@@ -79,12 +79,12 @@ public class Arithmatics extends AppCompatActivity {
         String tag= v.getTag().toString();
         switch (tag){
             case "java":
-                Intent i1= new Intent(Arithmatics.this, code.class);
+                Intent i1= new Intent(Arithmetics.this, code.class);
                 i1.putExtra("code",jcode);
                 startActivity(i1);
                 break;
             case "xml":
-                Intent i2= new Intent(Arithmatics.this, code.class);
+                Intent i2= new Intent(Arithmetics.this, code.class);
                 i2.putExtra("code",xcode);
                 startActivity(i2);
                 break;

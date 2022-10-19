@@ -136,7 +136,6 @@
             android:onClick="operation"
             android:tag="sub"
             android:text="SUBTRACT"
-            android:textColor="#FFFFFF"
             android:textStyle="bold" />
 
         <Button
@@ -150,7 +149,6 @@
             android:onClick="operation"
             android:tag="add"
             android:text="ADD"
-            android:textColor="#FFFFFF"
             android:textStyle="bold"
             app:cardCornerRadius="10dp"
             app:cardElevation="20dp"

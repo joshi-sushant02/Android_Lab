@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".java_codes.Age_Calculator">
+
     <ImageView
         android:id="@+id/age_get_javacode"
         android:layout_width="161dp"
         android:layout_height="151dp"
         android:layout_marginEnd="216dp"
         android:layout_marginBottom="572dp"
+        android:onClick="viewCode"
         android:tag="java"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,6 +24,7 @@
         android:layout_height="142dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="572dp"
+        android:onClick="viewCode"
         android:tag="xml"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,16 +87,17 @@
 
             <Button
                 android:id="@+id/bd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:padding="15dp"
-                android:shadowColor="@android:color/transparent"
+                android:background="@drawable/button2"
+                android:elevation="10dp"
+                android:fontFamily="monospace"
                 android:text="Select BirthDate"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/bdate"
@@ -107,41 +111,44 @@
                 android:padding="15dp"
                 android:shadowColor="@android:color/transparent"
                 android:text=""
+                android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/td"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:padding="15dp"
-                android:shadowColor="@android:color/transparent"
+
+                android:background="@drawable/button2"
+                android:elevation="10dp"
+                android:fontFamily="monospace"
                 android:text="Todays' Date"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/age"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="0dp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:padding="15dp"
+                android:background="@drawable/button"
                 android:shadowColor="@android:color/transparent"
                 android:text="Calculate Age"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/ans"
+                android:textAlignment="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
@@ -149,8 +156,8 @@
                 android:shadowColor="@android:color/transparent"
                 android:text=""
                 android:textColor="#000000"
-                android:textSize="20sp"
-                android:textStyle="bold|italic" />
+                android:textSize="17sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

@@ -198,7 +198,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="105dp"
             android:layout_marginTop="20dp"
-            android:text="CheckBox"
+            android:text="Permissions"
             android:textColor="#d703082b"
             android:textSize="23dp"
             android:textStyle="bold" />
@@ -206,12 +206,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="View Groups &amp; Toast"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="55dp"
+            android:text="Handling Permissions"
             android:textColor="#6003082b"
             android:textSize="14dp"
-            android:textStyle="bold"
-            android:layout_marginLeft="105dp"
-            android:layout_marginTop="55dp"/>
+            android:textStyle="bold" />
 
     </RelativeLayout><RelativeLayout
     android:layout_width="match_parent"
@@ -237,7 +237,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="105dp"
         android:layout_marginTop="20dp"
-        android:text="RadioButtons"
+        android:text="Date Picker"
         android:textColor="#d703082b"
         android:textSize="23dp"
         android:textStyle="bold" />
@@ -245,7 +245,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Linear Layout &amp; Toast"
+        android:text="Dialogs"
         android:textColor="#6003082b"
         android:textSize="14dp"
         android:textStyle="bold"
@@ -277,7 +277,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="105dp"
         android:layout_marginTop="20dp"
-        android:text="Intents"
+        android:text="Age Calulator"
         android:textColor="#d703082b"
         android:textSize="23dp"
         android:textStyle="bold" />
@@ -285,7 +285,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Navigations &amp; Stuff"
+        android:text="Dependencies Injection"
         android:textColor="#6003082b"
         android:textSize="14dp"
         android:textStyle="bold"
@@ -366,6 +366,86 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Adding Dependancy"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv2"
+                android:onClick="onListItemClick"
+                android:tag="9" />
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/c2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MCQs"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv2"
+                android:onClick="onListItemClick"
+                android:tag="10" />
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/c2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"
+                android:text="SQLite"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Database connectivity"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
                 android:textStyle="bold"

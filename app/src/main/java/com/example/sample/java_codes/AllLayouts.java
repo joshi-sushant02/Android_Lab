@@ -6,12 +6,14 @@ import com.example.sample.code;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class AllLayouts extends AppCompatActivity {
-String jcode="package com.example.sample.java_codes;\n" +
+String jcode;
+String jcode1="package com.example.sample.java_codes;\n" +
         "\n" +
         "import com.example.sample.R;\n" +
         "import com.example.sample.code;\n" +
@@ -684,10 +686,11 @@ String xcode="<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_layouts);
 
+      jcode=getString(R.string.jcode_all_layouts);
+
     }
     public void viewCode(View v){
         String tag= v.getTag().toString();
-
         switch (tag){
             case "java":
                 Intent i1= new Intent(AllLayouts.this,code.class);

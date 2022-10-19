@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.sample">
+    <!-- Declaring the required permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,18 +15,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".java_codes.Adapter"
+            android:name=".java_codes.Drag_Drop"
             android:exported="false" />
-
+        <activity
+            android:name=".java_codes.SQLite"
+            android:label="DataBase"
+            android:exported="false" />
+        <activity
+            android:name=".java_codes.Login"
+            android:exported="false"
+            android:label="MyThemes"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".java_codes.Permissions"
+            android:exported="false"
+            android:label="Permissions" />
+        <activity
+            android:name=".java_codes.Adapter"
+            android:label="Spinner"
+            android:exported="false" />
         <activity
             android:name=".java_codes.Age_Calculator"
+            android:label="Age Calculator"
             android:exported="false" />
         <activity
-            android:name=".java_codes.Arithmatics"
+            android:name=".java_codes.Arithmetics"
             android:exported="false"
-            android:label="Arithmatic Operations" />
+            android:label="Arithmetic Operations" />
         <activity
-            android:name=".MainActivity"
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +52,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".lists"
+            android:name=".home"
+            android:exported="false"
+            android:label="HOME"/>
+        <activity
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".code"

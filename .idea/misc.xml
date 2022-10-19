@@ -7,6 +7,7 @@
         <entry key="..\:/Coding/Android/ALLin13/app/src/main/res/layout/home.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/drawable/button.xml" value="0.193" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/drawable/button2.xml" value="0.244" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_adapter.xml" value="0.24375" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_age_calculator.xml" value="0.19157608695652173" />
@@ -15,23 +16,30 @@
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_area.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_arithmatics.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_chechbox.xml" value="0.22826086956521738" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_drag_drop.xml" value="0.16799999999999998" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_intents.xml" value="0.18072916666666666" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_lists.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_login.xml" value="0.24375" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_login2.xml" value="0.1480978260869565" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_mythemes.xml" value="0.16893115942028986" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_permissions.xml" value="0.1" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_radio_buttons.xml" value="0.18072916666666666" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_spinner.xml" value="0.14673913043478262" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_sqlite.xml" value="0.1480978260869565" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/activity_themes.xml" value="0.16893115942028986" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/androids_list.xml" value="0.17552083333333332" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/arithmatics.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/code_view.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/date_picker.xml" value="0.18072916666666666" />
-        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/datepicker_timepicker.xml" value="0.1265625" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/datepicker_timepicker.xml" value="0.264" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/fragment_code__java.xml" value="0.14673913043478262" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/fragment_second.xml" value="0.1328125" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/fragment_third.xml" value="0.1328125" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/g.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layout/home.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layouts/javacodes/layout/g.xml" value="0.22826086956521738" />
+        <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layouts/layout/activity_home.xml" value="0.11806256306760847" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layouts/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layouts/layout/androids_list.xml" value="0.22826086956521738" />
         <entry key="..\:/Coding/MyProjects/Android/ALLin13/app/src/main/res/layouts/layout/code_view.xml" value="0.2203125" />
