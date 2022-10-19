@@ -1,4 +1,4 @@
-package com.example.sample.xml_codes;
+package com.example.sample.quizz;
 
 public class JAVACODE {
     public static String AgeJCode="package com.example.sample.java_codes;\n" +

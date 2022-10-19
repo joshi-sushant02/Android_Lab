@@ -7,7 +7,7 @@
         <item>Teacher 👨🏻‍🏫</item>
         <item>Business 👨🏻‍💼</item>
     </string-array>
-    <string name="app_name">ALLin1</string>
+    <string name="app_name">Learn Android</string>
     <string name="jcode_all_layouts">
         package com.example.sample.java_codes;
         "import com.example.sample.R;\n" +
@@ -50,7 +50,7 @@
         "\n//\n
         }
     </string>
-<string name="xcode_all_layouts">
+    <string name="xcode_all_layouts">
     
 </string>
     <string name="hello_blank_fragment">this is fragment</string>

@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.sample.quizz.Quiz;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -54,5 +55,9 @@ public class home extends AppCompatActivity {
     public void next(View view){
         Intent i= new Intent(home.this,MainActivity.class);
         startActivity(i);
+    }
+    public void quiz(View view){
+        Intent i2= new Intent(home.this, Quiz.class);
+        startActivity(i2);
     }
 }

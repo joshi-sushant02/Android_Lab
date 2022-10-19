@@ -8,7 +8,7 @@
     android:background="#FFFFFF">
 
     <ImageView
-        android:id="@+id/Arith_get_javacode"
+        android:id="@+id/sql_get_javacode"
         android:layout_width="161dp"
         android:layout_height="151dp"
         android:layout_marginEnd="216dp"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/java_button11" />
 
     <ImageView
-        android:id="@+id/arith_get_xml"
+        android:id="@+id/sql_get_xml"
         android:layout_width="173dp"
         android:layout_height="142dp"
         android:layout_marginEnd="16dp"
@@ -134,6 +134,7 @@
             android:layout_marginTop="200dp"
             android:fontFamily="casual"
             android:onClick="operation"
+            android:background="@drawable/button"
             android:tag="sub"
             android:text="SUBTRACT"
             android:textStyle="bold" />
@@ -148,6 +149,7 @@
             android:fontFamily="casual"
             android:onClick="operation"
             android:tag="add"
+            android:background="@drawable/button"
             android:text="ADD"
             android:textStyle="bold"
             app:cardCornerRadius="10dp"
@@ -163,6 +165,7 @@
             android:fontFamily="casual"
             android:onClick="operation"
             android:tag="div"
+            android:background="@drawable/button"
             android:text="DIVIDE"
             android:textStyle="bold" />
 
@@ -175,6 +178,7 @@
             android:fontFamily="casual"
             android:onClick="operation"
             android:tag="mul"
+            android:background="@drawable/button"
             android:text="MULTIPLY"
             android:textStyle="bold" />
 

@@ -2,7 +2,7 @@ package com.example.sample.java_codes;
 
 import com.example.sample.R;
 import com.example.sample.code;
-import com.example.sample.xml_codes.JAVACODE;
+import com.example.sample.quizz.JAVACODE;
 
 import androidx.appcompat.app.AppCompatActivity;
 

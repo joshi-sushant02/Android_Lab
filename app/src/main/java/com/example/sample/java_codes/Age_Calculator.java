@@ -2,7 +2,6 @@ package com.example.sample.java_codes;
 
 import com.example.sample.R;
 import com.example.sample.code;
-import com.example.sample.xml_codes.JAVACODE;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,8 +16,6 @@ import android.widget.TextView;
 import org.joda.time.Period;
 import org.joda.time.PeriodType;
 
-import java.text.ParseException;
-import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -73,7 +70,7 @@ public class Age_Calculator extends AppCompatActivity {
                         int year = p.getYears();
                         int month = p.getMonths();
                         int day = p.getDays();
-                        t2.setText(year + " Years- " + month + " months" + day + "days");
+                        t2.setText(year + " Years " + month + " months" + day + "days");
 
                     } else {
                         t2.setText("Select valid BirthDate");

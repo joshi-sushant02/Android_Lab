@@ -44,6 +44,7 @@ FirebaseAuth auth;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login2);
+        getSupportActionBar().hide();
         auth=  FirebaseAuth.getInstance();
         Email=findViewById(R.id.email);
         Password=findViewById(R.id.pass);
